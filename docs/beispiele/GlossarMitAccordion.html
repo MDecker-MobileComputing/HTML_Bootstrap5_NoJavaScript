@@ -17,71 +17,100 @@
                 Das folgende Glossar mit Einträgen zum Aufklappen wurde mit dem
                 <a href="https://getbootstrap.com/docs/5.3/components/accordion/" target="_blank">Accordion-Element von Bootstrap 5</a>
                 erstellt.
+                Durch einen Klick kann ein Eintrag aufgeklappt werden, wobei ein evtl. anderer Eintrag zugeklappt wird.
             </p>
 
-            <div class="accordion mt-5" id="accordionExample">
+            <div class="accordion my-5" id="accordionExample"><!-- my-3: margin top+bottom 3 -->
 
                 <div class="accordion-item">
                   <h2 class="accordion-header">
-                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                      Accordion Item #1
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-css" aria-expanded="true" aria-controls="collapse-css">
+                      CSS
                     </button>
                   </h2>
-                  <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <div id="collapse-css" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                     <div class="accordion-body">
-                      <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                        <strong>Cascading Style Sheets.</strong> Deklarative Programmiersprache, mit der das Aussehen einer HTML-Seite definiert werden kann.
                     </div>
                   </div>
                 </div>
 
                 <div class="accordion-item">
                   <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                      Accordion Item #2
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-html" aria-expanded="false" aria-controls="collapse-html">
+                      HTML
                     </button>
                   </h2>
-                  <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <div id="collapse-html" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                     <div class="accordion-body">
-                      <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                        <strong>Hypertext Markup Language.</strong> Auszeichnungssprache, mit der die Struktur und der eigentliche Inhalt (v.a. Texte) einer Webseite definiert wird.
                     </div>
                   </div>
                 </div>
 
                 <div class="accordion-item">
                   <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                      Accordion Item #3
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-http" aria-expanded="false" aria-controls="collapse-http">
+                      HTTP
                     </button>
                   </h2>
-                  <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <div id="collapse-http" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                     <div class="accordion-body">
-                      <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                        <strong>Hypertext Transfer Protocol.</strong> Ein zustandsloses Protokoll auf der Anwendungsschicht, das u.a. zur Übertragung der Dateien von einer Web-Seite vom Server zum Browser verwendet wird.
                     </div>
                   </div>
                 </div>
 
                 <div class="accordion-item">
                     <h2 class="accordion-header">
-                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                        Accordion Item #4
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-javascript" aria-expanded="false" aria-controls="collapse-javascript">
+                        JavaScript
                       </button>
                     </h2>
-                    <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div id="collapse-javascript" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                       <div class="accordion-body">
-                        <strong>This is the fourth item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                        <strong>Programmiersprache.</strong> Mit JavaScript kann Code in eine Webseite eingebettet werden, der im Browser ausgeführt wird.
                       </div>
                     </div>
                 </div>
 
                 <div class="accordion-item">
                     <h2 class="accordion-header">
-                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-5" aria-expanded="false" aria-controls="collapse-5">
-                        Accordion Item #5
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-uri" aria-expanded="false" aria-controls="collapse-uri">
+                        URI
                       </button>
                     </h2>
-                    <div id="collapse-5" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div id="collapse-uri" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                       <div class="accordion-body">
-                        <strong>This is the fifth item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                        <strong>Uniform Resource Identifier</strong> Zeichenkette zur eindeutigen Definition einer Ressource; URLs sind ein Speziallfall von URIs.
+                      </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-url" aria-expanded="false" aria-controls="collapse-url">
+                        URL
+                      </button>
+                    </h2>
+                    <div id="collapse-url" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        <strong>Uniform Resource Locator</strong> Ein Speziallfall einer URI, der auch die Information beinhaltet, wo man die Ressource herbekommt.
+                        URLs sind das, was man in die Adresszeile eine Browsers normalerweise eingibt, um eine bestimmte Webseite aufzurufen.
+                      </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-website" aria-expanded="false" aria-controls="collapse-website">
+                        Website
+                      </button>
+                    </h2>
+                    <div id="collapse-website" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        <strong>Sammlung von Web-Seiten.</strong> Eine Website besteht aus einer oder mehreren Web-Seiten (HTML-Dokumente)
+                        und kann unter einer bestimmten URL (oftmals eine Domain) abgerufen werden.
                       </div>
                     </div>
                 </div>
@@ -89,7 +118,7 @@
                 <!--
                     Für jedes weitere Accordion-Element muss eine eindeutige ID für "div > div" vergeben werden.
                     Diese ID muss in "div > h2 > button" für die Attribute "data-bas-target" und "aria-controls"
-                    als Wert eingetragen werden (bei ersterem mit vorangestelltem #).
+                    als Wert eingetragen werden, wobei bei "data-bas-target" noch das "#" voranzustellen ist.
                  -->
 
               </div>
