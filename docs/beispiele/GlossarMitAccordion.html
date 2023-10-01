@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="utf-8" >
+        <title>Vorlage für Bootstrap 5</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    </head>
+    <body>
+
+        <div class="container-sm text-center">
+
+            <h1 class="my-5">Glossar mit Accordion von Bootstrap 5</h1><!-- my-3: margin top+bottom 3 -->
+
+            <p>
+                Das folgende Glossar mit Einträgen zum Aufklappen wurde mit dem
+                <a href="https://getbootstrap.com/docs/5.3/components/accordion/" target="_blank">Accordion-Element von Bootstrap 5</a>
+                erstellt.
+            </p>
+
+            <div class="accordion mt-5" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      HTML
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>Hypertext Markup Language.</strong> Auszeichnungssprache, mit der die Struktur und der eigentliche Inhalt (v.a. Texte) einer Webseite definiert wird.
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+        </div>
+
+    </body>
+</html>
