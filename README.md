@@ -1,4 +1,4 @@
-# Examples for Bootstrap5 without custom JavaScript #
+# Examples for Bootstrap 5 without custom JavaScript #
 
 <br>
 
