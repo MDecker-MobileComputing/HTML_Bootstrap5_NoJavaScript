@@ -8,9 +8,15 @@ The author of this page is not related with the developers of Bootstrap in any w
 
 <br>
 
-The example pages contained in this repository are server as web content at the following URL:
+The example pages contained in this repository are served as web content by [GitHub Pages](https://pages.github.com/) at the following URL:
 
 **https://mdecker-mobilecomputing.github.io/HTML_Bootstrap5_NoJavaScript/**
+
+<br>
+
+The example pages contained in this repository are also served as web content by [CloudFlare Pages](https://www.cloudflare.com/developer-platform/pages/) at the following URL:
+
+**https://bt5-demo-nojs.pages.dev/**
 
 <br>
 
