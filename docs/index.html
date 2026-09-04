@@ -1,14 +1,16 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="en">
     <head>
         <meta charset="utf-8" >
-        <title>Bootstrap5-Beispiele ohne eigenen JavaScript-Code</title>
+        <title>Bootstrap 5 Examples Without Custom JavaScript</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- CSS+JS für Bootstrap einbinden laut https://getbootstrap.com/docs/5.3/getting-started/introduction/#quick-start -->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+        <!-- Include Bootstrap CSS + JS as described at https://getbootstrap.com/docs/5.3/getting-started/introduction/#quick-start -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+              rel="stylesheet"
+              integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+              crossorigin="anonymous">
         <style>
-                /* Regel um Breite von Container zu visualisieren */
+                /* Rule to visualize the container width */
                 /* .container-sm { background-color: yellow;} */
         </style>
     </head>
@@ -16,31 +18,38 @@
 
         <div class="container-sm">
 
-            <h1 class="text-center my-5">Beispiele mit Bootstap 5</h1><!-- my-5: margin top+bottom 3 -->
+            <h1 class="text-center my-5">Examples with Bootstrap 5</h1><!-- my-5: margin top+bottom 3 -->
 
             <div class="d-grid gap-4">
 
-                <a class="btn btn-primary" href="beispiele/GlossarMitAccordion.html">Glossar mit Accordion</a>
+                <a class="btn btn-primary"
+                   href="examples/GlossaryWithAccordion.html">Glossary with Accordion</a>
 
-                <a class="btn btn-primary" href="beispiele/FotogallerieMitCarousel.html">Fotogallerie mit Carousel</a>
+                <a class="btn btn-primary"
+                   href="examples/PhotoGalleryWithCarousel.html">Photo Gallery with Carousel</a>
 
-                <a class="btn btn-primary" href="beispiele/W3cNamedColorsCards.html">"W3C Named Colors" mit Cards</a>
+                <a class="btn btn-primary"
+                   href="examples/W3cNamedColorsCards.html">"W3C Named Colors" with Cards</a>
 
-                <a class="btn btn-primary" href="beispiele/Tabelle.html">Tabelle</a>
+                <a class="btn btn-primary"
+                   href="examples/Table.html">Table</a>
 
             </div>
 
             <!--
             <div class="row mt-5 text-center">
-                <div class="d-block d-sm-none"           ><h3><b>Aktuelle Größenstufe:</b> <code>extra small (xs)</code></h3></div>
-                <div class="d-none d-sm-block d-md-none" ><h3><b>Aktuelle Größenstufe:</b> <code>small (sm)</code></h3></div>
-                <div class="d-none d-md-block d-lg-none" ><h3><b>Aktuelle Größenstufe:</b> <code>medium (md)</code></h3></div>
-                <div class="d-none d-lg-block d-xl-none" ><h3><b>Aktuelle Größenstufe:</b> <code>large (lg)</code></h3></div>
-                <div class="d-none d-xl-block"           ><h3><b>Aktuelle Größenstufe:</b> <code>extra large (xl)</code></h3></div>
+                <div class="d-block d-sm-none"           ><h3><b>Current breakpoint:</b> <code>extra small (xs)</code></h3></div>
+                <div class="d-none d-sm-block d-md-none" ><h3><b>Current breakpoint:</b> <code>small (sm)</code></h3></div>
+                <div class="d-none d-md-block d-lg-none" ><h3><b>Current breakpoint:</b> <code>medium (md)</code></h3></div>
+                <div class="d-none d-lg-block d-xl-none" ><h3><b>Current breakpoint:</b> <code>large (lg)</code></h3></div>
+                <div class="d-none d-xl-block"           ><h3><b>Current breakpoint:</b> <code>extra large (xl)</code></h3></div>
             </div>
             -->
 
         </div>
 
+       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+               integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+               crossorigin="anonymous"></script>
     </body>
 </html>

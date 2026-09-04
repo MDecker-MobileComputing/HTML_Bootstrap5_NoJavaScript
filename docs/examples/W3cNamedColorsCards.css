@@ -1,0 +1,31 @@
+code {
+    font-size: 115%;
+    color    : black;
+}
+
+.color-surface {
+    height       : 5rem;
+    border-bottom: 1px solid lightgrey;
+}
+
+.color-white   { background-color: white;   }
+.color-silver  { background-color: silver;  }
+.color-gray    { background-color: gray;    }
+.color-black   { background-color: black;   }
+
+.color-maroon  { background-color: maroon;  }
+.color-red     { background-color: red;     }
+.color-orange  { background-color: orange;  }
+.color-yellow  { background-color: yellow;  }
+
+.color-olive   { background-color: olive;   }
+.color-lime    { background-color: lime;    }
+.color-green   { background-color: green;   }
+.color-aqua    { background-color: aqua;    }
+
+.color-teal    { background-color: teal;    }
+.color-navy    { background-color: navy;    }
+.color-blue    { background-color: blue;    }
+.color-purple  { background-color: purple;  }
+
+.color-fuchsia { background-color: fuchsia; }

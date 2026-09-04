@@ -1,14 +1,16 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="en">
     <head>
         <meta charset="utf-8" >
-        <title>Bootstrap-Beispiel: Glossar</title>
+        <title>Bootstrap Example: Glossary</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+              rel="stylesheet"
+              integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+              crossorigin="anonymous">
         <style>
-          <!--
-              /* Regel um Breite von Container zu visualisieren */
+        <!--
+              /* Rule to visualize the width of the container */
               /* .container-sm { background-color: yellow; }  */
           -->
       </style>
@@ -17,13 +19,12 @@
 
         <div class="container-sm">
 
-            <h1 class="mt-3 mb-4">Glossar mit Accordion von Bootstrap 5</h1>
+            <h1 class="mt-3 mb-4">Glossary with Bootstrap 5 Accordion</h1>
 
             <p>
-                Das folgende Glossar mit Einträgen zum Aufklappen wurde mit dem
-                <a href="https://getbootstrap.com/docs/5.3/components/accordion/" target="_blank">Accordion-Element von Bootstrap 5</a>
-                erstellt.
-                Durch einen Klick kann ein Eintrag aufgeklappt werden, wobei ein ggf. anderer geöffneter Eintrag zugeklappt wird.
+                The following glossary with expandable entries was created using the
+                <a href="https://getbootstrap.com/docs/5.3/components/accordion/" target="_blank">Bootstrap 5 accordion component</a>.
+                By clicking an item, it can be expanded while another open item may be collapsed.
             </p>
 
             <div class="accordion my-5" id="accordionGlossar">
@@ -36,7 +37,8 @@
                   </h2>
                   <div id="collapse-css" class="accordion-collapse collapse" data-bs-parent="#accordionGlossar">
                     <div class="accordion-body">
-                        <strong>Cascading Style Sheets.</strong> Deklarative Programmiersprache, mit der das Aussehen einer HTML-Seite definiert werden kann.
+                        <strong>Cascading Style Sheets.</strong>
+                        A declarative programming language used to define the appearance of an HTML page.
                     </div>
                   </div>
                 </div>
@@ -49,7 +51,8 @@
                   </h2>
                   <div id="collapse-html" class="accordion-collapse collapse" data-bs-parent="#accordionGlossar">
                     <div class="accordion-body">
-                        <strong>Hypertext Markup Language.</strong> Auszeichnungssprache, mit der die Struktur und der eigentliche Inhalt (v.a. Texte) einer Webseite definiert wird.
+                        <strong>Hypertext Markup Language.</strong>
+                        A markup language used to define the structure and actual content (especially text) of a web page.
                     </div>
                   </div>
                 </div>
@@ -62,7 +65,8 @@
                   </h2>
                   <div id="collapse-http" class="accordion-collapse collapse" data-bs-parent="#accordionGlossar">
                     <div class="accordion-body">
-                        <strong>Hypertext Transfer Protocol.</strong> Ein zustandsloses Protokoll auf der Anwendungsschicht, das u.a. zur Übertragung der Dateien von einer Web-Seite vom Server zum Browser verwendet wird.
+                        <strong>Hypertext Transfer Protocol.</strong>
+                        A stateless application-layer protocol used, among other things, to transfer files from a website's server to the browser.
                     </div>
                   </div>
                 </div>
@@ -75,7 +79,8 @@
                     </h2>
                     <div id="collapse-javascript" class="accordion-collapse collapse" data-bs-parent="#accordionGlossar">
                       <div class="accordion-body">
-                        <strong>Programmiersprache.</strong> Mit JavaScript kann Code in eine Webseite eingebettet werden, der im Browser ausgeführt wird.
+                        <strong>Programming language.</strong>
+                        JavaScript can be embedded in a web page to run code directly in the browser.
                       </div>
                     </div>
                 </div>
@@ -88,7 +93,8 @@
                     </h2>
                     <div id="collapse-uri" class="accordion-collapse collapse" data-bs-parent="#accordionGlossar">
                       <div class="accordion-body">
-                        <strong>Uniform Resource Identifier.</strong> Zeichenkette zur eindeutigen Definition einer Ressource; URLs sind ein Speziallfall von URIs.
+                        <strong>Uniform Resource Identifier.</strong>
+                        A string used to uniquely identify a resource; URLs are a special case of URIs.
                       </div>
                     </div>
                 </div>
@@ -101,8 +107,9 @@
                     </h2>
                     <div id="collapse-url" class="accordion-collapse collapse" data-bs-parent="#accordionGlossar">
                       <div class="accordion-body">
-                        <strong>Uniform Resource Locator.</strong> Ein Speziallfall einer URI, der auch die Information beinhaltet, wo man die Ressource herbekommt.
-                        URLs sind das, was man in die Adresszeile eine Browsers normalerweise eingibt, um eine bestimmte Webseite aufzurufen.
+                        <strong>Uniform Resource Locator.</strong>
+                        A special case of a URI that also contains information about where to obtain the resource.
+                        URLs are what is usually entered in a browser's address bar to open a specific website.
                       </div>
                     </div>
                 </div>
@@ -115,26 +122,27 @@
                     </h2>
                     <div id="collapse-website" class="accordion-collapse collapse" data-bs-parent="#accordionGlossar">
                       <div class="accordion-body">
-                        <strong>Sammlung von Web-Seiten.</strong> Eine Website besteht aus einer oder mehreren Web-Seiten (HTML-Dokumente)
-                        und kann unter einer bestimmten URL (oftmals eine Domain) abgerufen werden.
+                        <strong>Collection of web pages.</strong>
+                        A website consists of one or more web pages (HTML documents)
+                        and can be accessed under a specific URL (often a domain).
                       </div>
                     </div>
                 </div>
 
                 <!--
-                    Für jedes weitere Accordion-Element muss eine eindeutige ID für "div > div" vergeben werden.
-                    Diese ID muss in "div > h2 > button" für die Attribute "data-bas-target" und "aria-controls"
-                    als Wert eingetragen werden, wobei bei "data-bas-target" noch das "#" voranzustellen ist.
+                    For each additional accordion item, a unique ID must be assigned to the "div > div" element.
+                    This ID must be entered as the value for the "data-bs-target" and "aria-controls" attributes in "div > h2 > button",
+                    with a preceding "#" for "data-bs-target".
                  -->
 
 
                 <!--
-                <div class="row mt-5 text-center">
-                  <div class="d-block d-sm-none"           ><h3><b>Aktuelle Größenstufe:</b> <code>extra small (xs)</code></h3></div>
-                  <div class="d-none d-sm-block d-md-none" ><h3><b>Aktuelle Größenstufe:</b> <code>small (sm)</code></h3></div>
-                  <div class="d-none d-md-block d-lg-none" ><h3><b>Aktuelle Größenstufe:</b> <code>medium (md)</code></h3></div>
-                  <div class="d-none d-lg-block d-xl-none" ><h3><b>Aktuelle Größenstufe:</b> <code>large (lg)</code></h3></div>
-                  <div class="d-none d-xl-block"           ><h3><b>Aktuelle Größenstufe:</b> <code>extra large (xl)</code></h3></div>
+                <div class="row my-4 text-center">
+                    <div class="d-block d-sm-none"           ><strong>Current breakpoint:</strong> <code>extra small (xs)</code></div>
+                    <div class="d-none d-sm-block d-md-none" ><strong>Current breakpoint:</strong> <code>small (sm)</code></div>
+                    <div class="d-none d-md-block d-lg-none" ><strong>Current breakpoint:</strong> <code>medium (md)</code></div>
+                    <div class="d-none d-lg-block d-xl-none" ><strong>Current breakpoint:</strong> <code>large (lg)</code></div>
+                    <div class="d-none d-xl-block"           ><strong>Current breakpoint:</strong> <code>extra large (xl)</code></div>
                 </div>
                 -->
 
@@ -142,5 +150,8 @@
 
         </div>
 
+       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+               integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+               crossorigin="anonymous"></script>
     </body>
 </html>
